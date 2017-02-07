@@ -4,19 +4,25 @@
 ### Compilation
 
 1) Give an example of a feature common in interpreted languages that is rare in compiled languages.
+*Dynamic typing*
 
 2) Name two advantages of static typing over dynamic typing.
+*Readability and speed*
 
 3) Give an example of a static semantic error.
+*A mismatch between the arity and usage of a function*
 
 4) What are two reasons you might want to turn off code optimization?
+*Optimization means more compilation time, and sometimes causes unexpected behavior with subtle bugs.*
 
 5) When you run `gcc` with `-S`, why might the results look different on different computers?
+*The `-S` flag generates assembly code, which differs by processor architecture.*
 
 6) If you spell a variable name wrong, or if you spell a function name wrong, 
 the error messages you get might look very different.  Why?
 
 7) What is a segmentation fault?
+*These occur when a program attempts to access memory in an incorrect location.*
 
 
 ## Chapter 2
@@ -25,14 +31,19 @@ the error messages you get might look very different.  Why?
 ### Processes
 
 1) Give a real-world example of virtualization (ideally not one of the ones in the book).
+*Storage virtualization (e.g. partitioning)*
 
 2) What is the difference between a program and a process?
+*A process is a software object that runs a program. A program can be run by multiple processes.*
 
 3) What is the primary purpose of the process abstraction?  What illusion does the process abstraction create?
+*This abstraction lets multiple processes operate in isolation and work with the same physical hardware without worrying about coordination.*
 
 4) What is the kernel?
+*The core part of an operating system, which provides essential functionality like communicating with hardware and creating threads.*
 
 5) What is a daemon?
+*A background process.*
  
 
 ## Chapter 3
