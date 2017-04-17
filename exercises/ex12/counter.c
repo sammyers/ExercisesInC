@@ -12,6 +12,8 @@
 
 #define NUM_CHILDREN 2
 
+int global = 1;
+
 // UTILITY FUNCTIONS
 
 /*  perror_exit
